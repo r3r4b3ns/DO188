@@ -1,0 +1,3 @@
+FROM docker.io/rerabens/python-38:do188
+RUN echo "Hello from container" > hello.html
+CMD python -m http.server 8000
