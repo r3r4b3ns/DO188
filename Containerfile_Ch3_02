@@ -1,0 +1,4 @@
+FROM docker.io/rerabens/nginx-120:do188
+RUN echo "It is pitch black. \
+You are likely to be eaten by a grue." >> index.html
+CMD nginx -g "daemon off;"
