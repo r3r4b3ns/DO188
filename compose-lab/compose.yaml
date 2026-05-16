@@ -1,0 +1,9 @@
+name: compose-lab
+
+services:
+  wiremock:
+  # Define quotes-provider
+  quotes-api:
+  # Define quotes-api
+  quotes-ui:
+  # Define quotes-ui
